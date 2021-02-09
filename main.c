@@ -36,36 +36,5 @@ int main()
     scanf("%d",&sayi);
     zincir(sayi);
 
-    /*while(sayi>=10){
-        k = (sayi%10)*10;
-        p = sayi/10;
-        t = k+p;
-        //printf("%d \n",t);
-        if(t>sayi){
-            sayi = t-sayi;
-            sayac++;
-        }
-        else if(sayi>t){
-            sayi = sayi-t;
-            sayac++;
-
-        }
-
-    } printf("%d",sayac);*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     return 0;
 }
